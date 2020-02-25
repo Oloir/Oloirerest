@@ -1,5 +1,9 @@
 package parameter;
 
+/**
+ * Основной класс параметра.
+ * Будет использован для характеристик героя.
+ */
 public class Parameter {
 
     protected final int value;
