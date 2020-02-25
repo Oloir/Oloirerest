@@ -6,4 +6,6 @@ public class PositiveParameter extends GreaterThanParameter {
         super(value, 0);
     }
 
+    // TODO: 25/02/2020 Добавить NegativeParameter 
+
 }
