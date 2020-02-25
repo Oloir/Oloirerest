@@ -1,35 +1,15 @@
 package parameter;
 
-/**
- * Основной класс Параметра, который будет впоследствии использован
- * для работы с характеристиками героя.
- *
- * Наследует абстрактный класс Number, чтобы принимать в конструктор
- * любой агрумент числового типа.
- *
- */
+public class Parameter {
 
-public class Parameter extends Number {
+    protected final int value;
 
-    protected Number value;
-
-    public Parameter(Number p) {
-        this.value = p;
+    public Parameter(int value) {
+        this.value = value;
     }
 
     public int intValue() {
-        return value.intValue();
+        return value;
     }
 
-    public long longValue() {
-        return value.longValue();
-    }
-
-    public float floatValue() {
-        return value.floatValue();
-    }
-
-    public double doubleValue() {
-        return value.doubleValue();
-    }
 }
