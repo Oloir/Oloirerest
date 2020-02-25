@@ -11,5 +11,6 @@ public class BoundedParameter extends Parameter {
         super(value);
         this.lowerBound = new GreaterThanParameter(value, lowerBound);
         this.upperBound = new LessThanParameter(value, upperBound);
+        
     }
 }
