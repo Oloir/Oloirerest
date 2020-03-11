@@ -5,8 +5,6 @@ import V1.parameter.specific.Experience;
 
 public class hero {
 
-    int Intel;
-    int Exper;
 
 
 
